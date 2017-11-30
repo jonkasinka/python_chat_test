@@ -7,4 +7,4 @@ s.bind(('0.0.0.0',12345))
 print "Hello, this is a chat box. To write a message, use a client.py"
 while 1:
     message = s.recv(128)
-	  print message
+    print message
